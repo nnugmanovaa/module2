@@ -7,6 +7,7 @@ public class Interview {
     private String date;
     private String topic;
     private int length;
+    private int length1;
 
     public String getInterviewer() {
         return interviewer;
