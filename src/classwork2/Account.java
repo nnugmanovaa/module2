@@ -6,12 +6,12 @@ public class Account {
     private String name;
     private int balance = 0;
 
-    public Account (String id, String name){
+    public Account(String id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public Account (String id, String name, int balance){
+    public Account(String id, String name, int balance) {
         this.id = id;
         this.name = name;
         this.balance = balance;

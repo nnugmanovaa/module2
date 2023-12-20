@@ -1,7 +1,6 @@
 package classwork2;
 
 public class Library {
-
-    private  Book [] book;
+    private  Book [] books;
 
 }

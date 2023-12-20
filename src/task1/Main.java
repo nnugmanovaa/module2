@@ -1,9 +1,11 @@
+package task1;
+
 public class Main {
     public static void main(String[] args) {
-        Person person1 = new Person("Aruzhan","Abdrakhmanova", 22,"girl", new String[]{"walking", "cooking"});
-        Person person2=  new Person();
+        Person person1 = new Person("Aruzhan", "Abdrakhmanova", 22, "girl", new String[]{"walking", "cooking"});
+        Person person2 = new Person();
         person2.firstname = "Nargiza";
-        person2.lastname="Nugmanova";
+        person2.lastname = "Nugmanova";
         person2.age = 21;
         person2.sex = "girl";
         person2.interests = new String[]{"swimming", "walking"};
@@ -11,7 +13,7 @@ public class Main {
         System.out.println(person2.lastname);
         System.out.println(person2.age);
         System.out.println(person2.sex);
-        person2.printInresets(person2.interests);
+        person2.printInresets();
         person1.printClass();
     }
 }
