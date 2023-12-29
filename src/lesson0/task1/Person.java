@@ -1,6 +1,4 @@
-package task1;
-
-import com.sun.jdi.ArrayReference;
+package lesson0.task1;
 
 import java.util.Arrays;
 

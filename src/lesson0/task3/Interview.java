@@ -1,4 +1,4 @@
-package task3;
+package lesson0.task3;
 
 public class Interview {
     //атрибуты: interviewer, interviewee, date, topic, length.

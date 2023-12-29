@@ -1,4 +1,4 @@
-package task2;
+package lesson0.task2;
 
 public class Task {
     //Данный класс состоит из данных атрибутов: description, type, assignee, issuer, issueDate. Все атрибуты имеют тип String.
