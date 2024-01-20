@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-20T17:26:05.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="yx6SSVqw_bwgmZvi8o8S" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-20T17:35:45.144Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="x6droZTHLze7OBBDPa2G" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="795" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="R4keAzkeu-3KmFmE4-b4-0" value="+ MyRectangle ( topLeft : &#xa;MyPoint, bottomRight: MyPoint)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="130" width="240" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="R4keAzkeu-3KmFmE4-b4-7" value="+ getTopLeft() : MyPoint&#xa;+ setTopLeft(topLeft : MyPoint) : void&#xa;+ getRightLeft() : MyPoint&#xa;+ setTopRight (topLeft : MyPoint) : void&#xa;+ getTopLeftX() : int&#xa;+ setTopLeftX( x : int): void&#xa;+ getTopLeftY() : int&#xa;+ setTopLeftY( y : int): void&#xa;+ getTopRightX() : int&#xa;+ setTopRightX( x : int): void&#xa;+ getTopRightY() : int&#xa;+ setTopRightY( y : int): void&#xa;+ toString() : String &#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="R4keAzkeu-3KmFmE4-b4-7" value="+ getTopLeft() : MyPoint&#xa;+ setTopLeft(topLeft : MyPoint) : void&#xa;+ getRightLeft() : MyPoint&#xa;+ setTopRight (topLeft : MyPoint) : void&#xa;+ getTopLeftX() : int&#xa;+ setTopLeftX( x : int): void&#xa;+ getTopLeftY() : int&#xa;+ setTopLeftY( y : int): void&#xa;+ getBottomRightX() : int&#xa;+ setBottomRightX( x : int): void&#xa;+ getBottomRightY() : int&#xa;+ setBottomRightY( y : int): void&#xa;+ toString() : String &#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="174" width="240" height="206" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="MyPoint" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
