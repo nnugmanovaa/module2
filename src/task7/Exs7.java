@@ -10,7 +10,7 @@ public class Exs7 {
             fullSentenceFromWord1.append(word1[i]);
         }
         for (int i =0; i<  word2.length; i++){
-            fullSentenceFromWord2.append(word1[i]);
+            fullSentenceFromWord2.append(word2[i]);
         }
         if(fullSentenceFromWord1.toString().equals(fullSentenceFromWord2.toString())){
             System.out.println(true);
