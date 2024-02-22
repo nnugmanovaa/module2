@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Task1 {
     public static void main(String[] args) {
-        task14();
+        task16();
     }
 
     public static void task2() {
@@ -154,6 +154,36 @@ public class Task1 {
 
         Collections.swap(colors, 0, 3);
         System.out.println(colors);
+    }
+
+    public static void task15(){
+        List<String> colors = new ArrayList<>();
+        colors.add("white");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Blue");
+
+        List<String> newColors = new ArrayList<>();
+        newColors.add("white");
+        newColors.add("Black");
+        newColors.add("Red");
+        newColors.add("Blue");
+
+        List<String> joinnedlist = new ArrayList<>(colors);
+        joinnedlist.addAll(newColors);
+        System.out.println(joinnedlist);
+    }
+
+    public static void task16(){
+        List<String> colors = new ArrayList<>();
+        colors.add("white");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Blue");
+
+        List<String> newColors = new ArrayList<>(colors);
+        System.out.println(newColors);
+
     }
 
 
