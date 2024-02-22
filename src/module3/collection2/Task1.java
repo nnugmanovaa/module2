@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Task1 {
     public static void main(String[] args) {
-        task16();
+        task22();
     }
 
     public static void task2() {
@@ -156,7 +156,7 @@ public class Task1 {
         System.out.println(colors);
     }
 
-    public static void task15(){
+    public static void task15() {
         List<String> colors = new ArrayList<>();
         colors.add("white");
         colors.add("Black");
@@ -174,7 +174,7 @@ public class Task1 {
         System.out.println(joinnedlist);
     }
 
-    public static void task16(){
+    public static void task16() {
         List<String> colors = new ArrayList<>();
         colors.add("white");
         colors.add("Black");
@@ -185,6 +185,78 @@ public class Task1 {
         System.out.println(newColors);
 
     }
+
+    public static void task17() {
+        List<String> colors = new ArrayList<>();
+        colors.add("white");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Blue");
+        colors.clear();
+        System.out.println(colors);
+    }
+
+    public static void task18() {
+        List<String> colors = new ArrayList<>();
+        colors.add("white");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Blue");
+
+        if (!colors.isEmpty()) {
+            System.out.println("it is not empty");
+        } else {
+            System.out.println("it is empty");
+        }
+    }
+
+    public static void task19(){
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("white");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Blue");
+        System.out.println(colors.size());
+
+        colors.trimToSize();
+        System.out.println(colors.size());
+    }
+
+    public static void task20(){
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("white");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Blue");
+        System.out.println(colors.size());
+
+        colors.ensureCapacity(10);
+        System.out.println(colors.size());
+    }
+
+    public static void task21(){
+        List<String> colors = new ArrayList<>();
+        colors.add("white");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Blue");
+        colors.set(1,"asdsad");
+        System.out.println( colors);
+    }
+
+    public static void task22(){
+        ArrayList<String> colors = new ArrayList<>();
+        colors.add("white");
+        colors.add("Black");
+        colors.add("Red");
+        colors.add("Blue");
+
+        for(String str : colors){
+            System.out.println(colors.indexOf(str));
+        }
+    }
+
+
 
 
 }
