@@ -1,0 +1,3 @@
+1;Little prince;true;BOOK;AAA_Author;Title_B;19191919;
+2;Sons;true;DVD;40;
+3;Vogue;true;MAGAZINE;292;Vogue_ISSUER;
