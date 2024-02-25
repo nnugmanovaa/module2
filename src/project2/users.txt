@@ -1,4 +1,4 @@
-LIBRARIAN;1;librarian_admin@mail.ru;MTIzNDU2;Nargiza;Nugmanova;5;
-MEMBER;488200485;kisa@mail.ru;MTIz;kisa;madel;true;SILVER;2@1@3@
-MEMBER;-1588273839;rabi@mail.ru;MTEx;rabi;mam;true;SILVER;3@
-
+LIBRARIAN;1;admin@mail.ru;MTIzNDU2;Nargiza;Nugmanova;5;
+MEMBER;488200485;kisa@mail.ru;MTIz;kisa;madel;true;SILVER;3@6@7@8@
+MEMBER;1588273839;rabi@mail.ru;MTEx;rabi;mam;false;SILVER;null
+MEMBER;775646108;sula@mail.ru;c3VsYQ==;sula;aaa;false;GOLD;1@
